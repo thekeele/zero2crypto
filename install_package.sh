@@ -2,6 +2,7 @@
 #Zero to Crypto on Xubuntu
 echo "Zero to Crypto on Xubuntu"
 sleep 2
+chmod 700 ./install/*.sh
 ./install/update_os.sh
 touch ./config/ip.txt
 ./install/whois.sh  >> ./config/ip.txt
@@ -16,8 +17,11 @@ sleep 2
 ./install/get_cgminer.sh
 echo "About to test cgminer, you should see ALL your cards"
 sleep 6
+chmod 700 ./test_install/test_cgminer.sh
 ./test_install/test_cgminer.sh
+chmod 700 ./configs/get_configs.sh
 ./configs/get_configs.sh
 echo "Done, mining is about to start\nWarning: Please update files in /configs for your system\n"
 sleep 6
+chmod 700 ./start_mining.sh
 ./start_mining.sh

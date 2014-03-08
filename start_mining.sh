@@ -1,2 +1,2 @@
 #!/bin/bash
-screen ./configs/start_cgminer.sh
+./configs/start_cgminer.sh
