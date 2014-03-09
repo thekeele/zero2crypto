@@ -1,8 +1,7 @@
 #!/bin/bash
 #Zero to Crypto on Xubuntu
 echo "Zero to Crypto on Xubuntu"
-sleep 2
-chmod 700 ./install/*.sh
+sleep 5
 ./install/update_os.sh
 touch ./config/ip.txt
 ./install/whois.sh  > ./config/ip.txt
