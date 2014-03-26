@@ -2,11 +2,11 @@
 #Zero to Crypto on Xubuntu
 echo "Zero to Crypto on Xubuntu"
 sleep 5
-./install/update_os.sh
-touch ./config/ip.txt
-./install/whois.sh  > ./config/ip.txt
+~/zero2crypto/install/update_os.sh
+touch ~/zero2crypto/config/ip.txt
+~/zero2crypto/install/whois.sh  > ~/zero2crypto/config/ip.txt
 echo "Your IP Address is below, write this down"
-cat ./config/ip.txt
+cat ~/zero2crypto/config/ip.txt
 sleep 15
-./install/get_gpu_drivers.sh
-./install/install_gpu_drivers.sh
+~/zero2crypto/install/get_gpu_drivers.sh
+~/zero2crypto/install/install_gpu_drivers.sh
