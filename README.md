@@ -26,7 +26,7 @@ Congrats! You should be on the desktop now
 
 `$ cd zero2crypto`
 
-`$ ./install1.sh`
+`$ ./install1-XXX.sh`
 
 Restart your computer when ATI asks
 
