@@ -42,7 +42,7 @@ Keep Calm and watch the output and supply input when necessary
 
 The cgminer program should start up in your terminal. Use the sample config files as a basis for your own config file. 
 
-Wow much crypto! Many riches!
+Wow much crypto!
 
 ***
 
