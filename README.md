@@ -53,13 +53,3 @@ Wow much crypto! Many riches!
 [http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/](http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/)
 
 [http://www.howtoforge.com/the-perfect-desktop-xubuntu-12.04](http://www.howtoforge.com/the-perfect-desktop-xubuntu-12.04)
-
-***
-
-### Donate
-
-BTC: 1M5nrCum8oTTNuWVgRSBGkTn4dqbXLEt6Z
-
-LTC: Lc5GRhVGvdrgGvT6JmyooqUnhfLwCL7u8W
-
-DOGE: DJ4HAUvjwF6iLnEFWSDqTF6a4PpsPjrgyo
