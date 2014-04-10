@@ -26,21 +26,7 @@ Congrats! You should be on the desktop now
 
 `$ cd zero2crypto`
 
-`$ ./install1-XXX.sh`
-
-Restart your computer when ATI asks
-
-`$ cd ~/zero2crypto`
-
-`$ ./install2.sh`
-
-Keep Calm and watch the output and supply input when necessary
-
-`$ cd configs`
-
-`$ ./start_cgminer.sh`
-
-The cgminer program should start up in your terminal. Use the sample config files as a basis for your own config file. 
+*under development* 
 
 Wow much crypto!
 
