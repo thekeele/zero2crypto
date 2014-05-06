@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~/Downloads
 mkdir cgminer ; cd cgminer
-wget http://ck.kolivas.org/apps/cgminer/3.7/cgminer-3.7.2.tar.bz2
+wget http://ck.kolivas.org/apps/cgminer/old/3.7/cgminer-3.7.2.tar.bz2
 bzip2 -d cgminer-3.7.2.tar.bz2 ; tar -xf cgminer-3.7.2.tar
 
 cd ~/Downloads/adl
