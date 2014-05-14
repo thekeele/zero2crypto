@@ -26,23 +26,9 @@ Congrats! You should be on the desktop now
 
 `$ cd zero2crypto`
 
-`$ ./install1.sh`
+*under development* 
 
-Restart your computer when ATI asks
-
-`$ cd ~/zero2crypto`
-
-`$ ./install2.sh`
-
-Keep Calm and watch the output and supply input when necessary
-
-`$ cd configs`
-
-`$ ./start_cgminer.sh`
-
-The cgminer program should start up in your terminal. Use the sample config files as a basis for your own config file. 
-
-Wow much crypto! Many riches!
+Wow much crypto!
 
 ***
 
@@ -53,13 +39,3 @@ Wow much crypto! Many riches!
 [http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/](http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/)
 
 [http://www.howtoforge.com/the-perfect-desktop-xubuntu-12.04](http://www.howtoforge.com/the-perfect-desktop-xubuntu-12.04)
-
-***
-
-### Donate
-
-BTC: 1M5nrCum8oTTNuWVgRSBGkTn4dqbXLEt6Z
-
-LTC: Lc5GRhVGvdrgGvT6JmyooqUnhfLwCL7u8W
-
-DOGE: DJ4HAUvjwF6iLnEFWSDqTF6a4PpsPjrgyo
