@@ -1,10 +1,10 @@
-## Stock Xubuntu 12.04 to Scrypt Miner
+### Stock Xubuntu 12.04 to Scrypt Miner
 
-### Download OS
+#### Download OS
 http://xubuntu.org/getxubuntu/
   _12.04 64-Bit tested_
 
-### Download Bootable USB Program
+#### Download Bootable USB Program
 http://rufus.akeo.ie/
   _any program will do :)_
 
@@ -16,23 +16,38 @@ Follow on screen instructions, be sure to select "login automatically"
 
 Congrats! You should be on the desktop now
 
-### Open a terminal window
+#### Open a terminal window
 
-`$ cd ~`
-
-`$ sudo apt-get install git`
+`$ cd ~;sudo apt-get install git`
 
 `$ git clone https://github.com/thekeele/zero2crypto.git`
 
-`$ cd zero2crypto`
+`$ sudo zero2crypto/install/update_os.sh`
 
-*under development* 
+Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/download)
+
+Install Driver
+
+*The remainder of the installtion can be completed over ssh*
+
+`$ sudo zero2crypto/install/get_drivers.sh`
+
+`$ sudo zero2crypto/install/install_drivers.sh`
+
+`$ sudo zero2crypto/install/start_drivers.sh`
+
+`$ sudo zero2crypto/install/get_cgminer.sh`
+
+`$ sudo zero2crypto/install/test_cgminer.sh`
+
+`$ sudo reboot`
+
 
 Wow much crypto!
 
 ***
 
-### Sources
+#### Sources
 
 [http://blog.truepps.com/complete-guide-to-mine-scrypt-on-xubuntu-13-10/](http://blog.truepps.com/complete-guide-to-mine-scrypt-on-xubuntu-13-10/)
 
