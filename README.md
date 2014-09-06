@@ -18,32 +18,36 @@ Congrats! You should be on the desktop now
 
 #### Open a terminal window
 
-`$ cd ~;sudo apt-get install git`
+`$ sudo apt-get install git`
 
 `$ git clone https://github.com/thekeele/zero2crypto.git`
 
-`$ sudo zero2crypto/install/update_os.sh`
+`$ cd zero2crypto/`
+
+`$ sudo ./install/update_os.sh`
 
 Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/download)
 
 Install Driver
 
-*The remainder of the installtion can be completed over ssh*
+`$sudo reboot`
 
-`$ sudo zero2crypto/install/get_drivers.sh`
+Download [http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/]
 
-`$ sudo zero2crypto/install/install_drivers.sh`
+Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/]
 
-`$ sudo zero2crypto/install/start_drivers.sh`
+`$ sudo ./install/install_drivers.sh`
 
-`$ sudo zero2crypto/install/get_cgminer.sh`
+`$ sudo ./install/start_drivers.sh`
 
-`$ sudo zero2crypto/install/test_cgminer.sh`
+`$ sudo ./install/get_cgminer.sh`
+
+`$ sudo ./install/test_cgminer.sh`
 
 `$ sudo reboot`
 
 
-Wow much crypto!
+Wow much setup!
 
 ***
 
