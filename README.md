@@ -44,15 +44,21 @@ Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-l
 
 `$ sudo ./install/get_cgminer.sh`
 
-`$ sudo ./install/test_cgminer.sh`
+`$ sudo ./test/test_cgminer.sh`
 
 `$ sudo reboot`
 
-Wow much setup!
+Sample configuration files can be found in `~/zero2crypto/configs`
+
+Proper configuration will depend on your hardware and pool
+
+Once a proper config is in place edit `~/zero2crypto/mine.sh` to point to your new config file
+
+`$ sudo ./mine.sh`
 
 ***
 
-#### Sources
+#### Additional References
 
 [http://blog.truepps.com/complete-guide-to-mine-scrypt-on-xubuntu-13-10/](http://blog.truepps.com/complete-guide-to-mine-scrypt-on-xubuntu-13-10/)
 
