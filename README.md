@@ -6,15 +6,11 @@ http://xubuntu.org/getxubuntu/
 
 #### Download Bootable USB Program
 http://rufus.akeo.ie/
-  _any program will do :)_
-
-You should have a bootable Xubuntu 12.04 USB drive now!
+  _recommended program_
 
 Plug USB into miner and boot
 
 Follow on screen instructions, be sure to select "login automatically"
-
-Congrats! You should be on the desktop now
 
 #### Open a terminal window
 
@@ -28,13 +24,19 @@ Congrats! You should be on the desktop now
 
 Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/download)
 
-Install Driver
+`$ cd ~/Downloads`
 
-`$sudo reboot`
+`$ unzip amd-catalyst*`
 
-Download [http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/]
+`$ cd fglrx*`
 
-Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/]
+`$ sudo ./amd-driver-installer*`
+
+`$ sudo reboot`
+
+Download [http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
+
+Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/](http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/)
 
 `$ sudo ./install/install_drivers.sh`
 
@@ -45,7 +47,6 @@ Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-l
 `$ sudo ./install/test_cgminer.sh`
 
 `$ sudo reboot`
-
 
 Wow much setup!
 
