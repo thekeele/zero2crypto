@@ -3,4 +3,3 @@ cd ~/Downloads
 tar xvf AMD-APP-SDK*
 rm *.bz2
 sudo ./AMD-APP-SDK*
-sudo reboot
