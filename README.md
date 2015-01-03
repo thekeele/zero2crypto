@@ -1,5 +1,7 @@
 ### Stock Xubuntu 12.04 to Scrypt Miner
 
+***
+
 #### Download OS
 http://xubuntu.org/getxubuntu/
   _12.04 64-Bit tested_
