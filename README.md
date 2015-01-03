@@ -1,4 +1,4 @@
-### Stock Xubuntu 12.04 to Scrypt Miner
+### Stock Xubuntu 12.04 to Crypto Miner
 
 ***
 
