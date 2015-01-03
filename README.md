@@ -22,6 +22,8 @@ Follow on screen instructions, be sure to select "login automatically"
 
 `$ sudo ./install/update_os.sh`
 
+Reboot `$ sudo reboot`
+
 Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/download)
 
 `$ cd ~/Downloads`
@@ -32,7 +34,7 @@ Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/do
 
 `$ sudo ./amd-driver-installer*`
 
-`$ sudo reboot`
+Reboot `$ sudo reboot`
 
 Download [http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
 
@@ -40,17 +42,23 @@ Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-l
 
 `$ sudo ./install/install_drivers.sh`
 
+Reboot `$ sudo reboot`
+
+*Remainder completed via ssh*
+
 `$ sudo ./install/start_drivers.sh`
+
+Reboot `$ sudo reboot`
 
 `$ sudo ./install/get_cgminer.sh`
 
 `$ sudo ./test/test_cgminer.sh`
 
-`$ sudo reboot`
+Reboot `$ sudo reboot`
 
 Sample configuration files can be found in `~/zero2crypto/configs`
 
-Proper configuration will depend on your hardware and pool
+Proper configuration will depend on your hardware and the pool you choose
 
 Once a proper config is in place edit `~/zero2crypto/mine.sh` to point to your new config file
 
