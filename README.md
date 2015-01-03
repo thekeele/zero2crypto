@@ -12,7 +12,7 @@ Plug USB into miner and boot
 
 Follow on screen instructions, be sure to select "login automatically"
 
-#### Open a terminal window
+#### Prepare for installation
 
 `$ sudo apt-get install git`
 
@@ -23,6 +23,8 @@ Follow on screen instructions, be sure to select "login automatically"
 `$ sudo ./install/update_os.sh`
 
 Reboot `$ sudo reboot`
+
+#### Install GPU Driver
 
 Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/download)
 
@@ -36,6 +38,8 @@ Download [http://support.amd.com/en-us/download](http://support.amd.com/en-us/do
 
 Reboot `$ sudo reboot`
 
+#### Install AMD APP SDK
+
 Download [http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
 
 Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/](http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/)
@@ -44,17 +48,23 @@ Download [http://developer.amd.com/tools-and-sdks/graphics-development/display-l
 
 Reboot `$ sudo reboot`
 
+#### Verify GPU Driver Installation
+
 *Remainder completed via ssh*
 
 `$ sudo ./install/start_drivers.sh`
 
 Reboot `$ sudo reboot`
 
+#### Install CGMiner
+
 `$ sudo ./install/get_cgminer.sh`
 
 `$ sudo ./test/test_cgminer.sh`
 
 Reboot `$ sudo reboot`
+
+#### Configure and Run
 
 Sample configuration files can be found in `~/zero2crypto/configs`
 
